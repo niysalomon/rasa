@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+	vertical-align: middle;
+}
+
+footer {
+	margin-top: 10px;
+}
+
+video {
+	border: 1px solid #000;
+	border-radius: 2px;
+}

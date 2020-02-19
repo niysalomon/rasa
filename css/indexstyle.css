@@ -1,0 +1,23 @@
+#body1{
+    position:center;
+    background-color: white;
+    width : 700px;
+	height: 250px;
+	padding-left: 50px;
+    border-bottom: 5px solid black;
+	border-left: 5px black solid;
+	border-right: 5px black solid;
+	border-top: 5px black solid;
+	padding-top: 50px;
+	padding-bottom: 10px;
+    }
+#usernam {
+background-color: skyblue;
+padding: 1px 1px 1px 1px;
+
+}
+#passwor{
+background-color: skyblue;
+padding: 1px 1px 1px 1px;
+
+}

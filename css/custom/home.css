@@ -1,0 +1,273 @@
+.header {
+    height: 43px;
+    background: url(/build/images/Header.png);
+}
+
+.logo {
+    height: 102px;
+    margin-top: 5px;
+    width: 102px;
+    background: url(/build/images/Logo3.png);
+}
+
+.logo:hover {
+    transition: all 4s  1ms ease-out;
+    /*background: wheat;*/
+}
+
+.logo .logoname {
+    font-weight: 400;
+    width: 87px;
+    height: 23px;
+    font-size: 24px;
+    left: 51px;
+    margin-left: 100px;
+    color: #ffffff;
+}
+
+.searhing {
+    width: 411px;
+    bottom: 1581px;
+    background: url(/build/images/SearchBar.png);
+    height: 22px;
+    color: #d0d0d0;
+    font: italic 100 16.67px Roboto;
+    border: 1px;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.signin-wrapper {
+    margin-left: 5%;
+    padding: 0px 0px 0px;
+}
+
+.singup-wrapper {
+    margin-left: 32%;
+    padding: 0px 0px 0px;
+}
+
+.signup {
+    width: 134px;
+    height: 32px;
+    border-radius: 4px;
+    margin-top: 5px;
+    border: 0px;
+    color: #fff;
+    background-color: #42a7b6;
+    background: url(/build/images/Create-AccountButton.png);
+}
+.body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 636.5px;
+    width: 100%;
+    background: url(/build/images/bg.png);
+    font-family: Roboto;
+}
+
+.moree {
+    height: 40px;
+    color: #fefefe;
+    font: 300 15px Roboto;
+    text-align: center;
+    background: url(/build/images/Rectangle-2.png);
+}
+
+.global {
+    margin-top: 40px;
+}
+
+.beforerow {
+    margin: 10px;
+    margin-left: 200px;
+}
+
+h4 {
+    color: #5d5d5d;
+    font-family: Roboto;
+    font-size: 38.33px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+p {
+    width: 447px;
+    color: #5d5d5d;
+    font-family: Roboto;
+    font-size: 23.33px;
+    font-weight: 400;
+}
+
+.search {
+    right: 200px;
+}
+
+img {
+    width: 120px;
+}
+
+.register-form {
+    width: 369px;
+    height: 360px;
+    border: 0px;
+    margin-left: -115px;
+    background-color: #f3f3f3;
+    margin-top: 5px;
+}
+
+.login-form {
+    width: 369px;
+    height: 360px;
+    border: 0px;
+    margin-left: -215px;
+    background-color: #f3f3f3;
+    margin-top: 5px;
+}
+
+.username {
+    width: 310px;
+    height: 35px;
+    background: url(/build/images/Username.png);
+    bottom: 1981px;
+    top: 139px;
+    right: 55px;
+    left: 1555px;
+    border-radius: 3px;
+    border: #ffffff;
+    margin-left: 24px;
+    margin-top: 20px;
+    color: #cdcdcd;
+    font: italic 300 20.83px Roboto;
+}
+
+.register-button {
+    width: 134px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #42a7b6;
+    border: 0px;
+    color: #fff;
+    background: url(/build/images/RegisterButton.png);
+    margin-left: 22px;
+    color: #fefefe;
+    font: italic 500 16.67px Roboto;
+}
+
+.login-button {
+    width: 134px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #42a7b6;
+    border: 0px;
+    color: #fff;
+    background: url(/build/images/RegisterButton.png);
+    margin-left: 22px;
+    color: #fefefe;
+    font: italic 500 16.67px Roboto;
+}
+
+.cancel-button {
+    background: url(/build/images/CancelButton.png);
+    background-color: #ff646b;
+    width: 134px;
+    height: 42px;
+    border-radius: 4px;
+    border: 0px;
+    color: #fff;
+    color: #fefefe;
+    font: italic 500 16.67px Roboto;
+}
+
+.channel .midlle {
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+.channel p{
+    margin-left: 35%;
+   
+}
+.information p{
+    margin-left: -3%;
+}
+.information h3 {
+     margin-left: 10%;
+}
+
+
+
+.information >.info-aboutus {
+    margin-left: 45px;
+}
+
+/*
+external css
+ */
+
+#login-dp {
+    min-width: 250px;
+    padding: 4px 4px 0;
+    overflow: hidden;
+    margin-left: -100px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255,255,255,.8);
+}
+
+#login-dp .help-block {
+    font-size: 12px;
+}
+
+#login-dp .bottom {
+    background-color: rgba(255,255,255,.8);
+    border-top: 1px solid #ddd;
+    clear: both;
+    /*padding:14px;*/
+}
+
+#login-dp .social-buttons {
+    margin: 12px 0;
+}
+
+#login-dp .social-buttons a {
+    width: 49%;
+}
+
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+.btn-fb {
+    color: #fff;
+    background-color: #3b5998;
+}
+
+.btn-fb:hover {
+    color: #fff;
+    background-color: #496ebc;
+}
+
+.btn-tw {
+    color: #fff;
+    background-color: #55acee;
+}
+
+.btn-tw:hover {
+    color: #fff;
+    background-color: #59b5fa;
+}
+
+@media (max-width:768px) {
+    #login-dp {
+        background-color: inherit;
+        color: #fff;
+    }
+
+    #login-dp .bottom {
+        background-color: inherit;
+        border-top: 0 none;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}

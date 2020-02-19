@@ -1,0 +1,127 @@
+.leftMenu{
+  border-color:  #00baff solid 1px;
+  display: block;
+
+}
+.tradeMark{ color:#009688; font-weight: 400; font-size: 30px;margin-left: 200px;}
+.text-muted {
+    color: #b4bcc2;
+    margin-left: 9px;
+}
+a:hover, a:focus {
+    color: #fff;
+    text-decoration: underline;
+}
+.team-info{margin-left: 300px;margin-top: -5px;}
+.team-info p{color: #ccc;}
+.drag-streams{border: dashed; color: #ccc;min-height: 150px;}
+.call-us{width: 900px;margin-left: 500px;}
+/*char box google-chat style*/
+.shout_box {
+  width: 260px;
+  overflow: hidden;
+  position: fixed;
+  
+  bottom: 0;
+  right: 0%;
+  z-index:9;
+}
+.shout_box .header .close_btn {
+  background: url("../img/close_btn.png") no-repeat 0px 0px;
+  color: white;
+  float: right;
+  width: 15px;
+  height: 15px;
+  color: white;
+}
+.shout_box .header .close_btn:hover {
+  background: url("../img/close_btn.png") no-repeat 0px -16px;
+  color: white;
+}
+.shout_box .header .open_btn {
+  background: url("../img/close_btn.png") no-repeat 0px -32px;
+  color: white;
+  float: right;
+  width: 15px;
+  height: 15px;
+}
+.shout_box .header .open_btn:hover {
+  background: url("../img/close_btn.png") no-repeat 0px -48px;
+}
+.shout_box .header{
+  padding: 5px 3px 5px 5px;
+  font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+  font-weight: bold;
+  color:#fff;
+  border: 1px solid rgba(0, 39, 121, .76);
+  border-bottom:none;
+  cursor: pointer;
+}
+.shout_box .header:hover{
+  background-color: #627BAE;
+}
+.shout_box .message_box {
+  background: #FFFFFF;
+  height: 200px;
+  overflow:auto;
+  border: 1px solid #CCC;
+}
+.shout_msg{
+  margin-bottom: 10px;
+  display: block;
+  border-bottom: 1px solid #F3F3F3;
+  padding: 0px 5px 5px 5px;
+  font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+  color:#7C7C7C;
+}
+.message_box:last-child {
+  border-bottom:none;
+}
+time{
+  font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+  font-weight: normal;
+  float:right;
+  color: #D5D5D5;
+}
+
+
+.Circle__image {
+  border: 5px solid #FFF;
+  border-top-color: rgb(255, 255, 255);
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-right-color: rgb(255, 255, 255);
+  border-right-style: solid;
+  border-right-width: 5px;
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-left-color: rgb(255, 255, 255);
+  border-left-style: solid;
+  border-left-width: 5px;
+}
+.Circle__image_red {
+  border: 3px solid #FFF;
+  border-top-color: rgb(157, 171, 181);
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-right-color: rgb(157, 171, 181);
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-bottom-color:rgb(157, 171, 181);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-left-color: rgb(157, 171, 181);
+  border-left-style: solid;
+  border-left-width: 3px;
+}
+.posts textarea{
+  width: 100%;
+  height: 5em;
+  outline: 0;
+  outline-width: 0px;
+  resize: none;
+  border: 0px;
+  font-weight: 100;
+}
+
